@@ -1,6 +1,6 @@
 # PowerVS-Conectividad
 <p align="center">
-<img width="500" alt="autoscale" src=https://github.com/emeloibmco/VPC-Auto-Escalamiento-IMG/blob/main/Imagenes/escenario.png>
+<img width="500" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/escenario.png>
 </p>
 
 ## Índice  📰
