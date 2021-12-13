@@ -26,11 +26,16 @@ Para realizar la conexión entre PowerVS y el Firewall Juniper es importarte act
 * ```Subject```: Enable VRF in the account
 * ```Description```: Texto guía -> Please, your help to enable (ON) Virtual Router Forwarding in this account (<Número de cuenta IBM Cloud>). We require to enable VRF to enable connectivity to PowerVS resources. Thanks in advance for your help, let me know if any additional information is required.
 *  ```Severity```: Severity 2 - Significant business impact.
+
 Revise que sus configuraciónes hayan quedado correctas y de click en Next / Siguiente.
 
 5. Finalmente de clik en ``` Submit case / Enviar caso```.
 
 La habilitación se verá reflejada en las próximas horas.
+
+<p align="center">
+<img width="500" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/vrf.gif>
+</p>
 
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/schematics?topic=schematics-about-schematics">Acerca de IBM Cloud Schematics</a>
