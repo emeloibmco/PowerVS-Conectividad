@@ -5,7 +5,7 @@
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
-2. [Activar el VRF(Virtual Routing Forwarding)](#Activar-el-VRF(Virtual-Routing-Forwarding)
+2. [Activar el VRF(Virtual Routing Forwarding)](#Activar-el-VRF-(Virtual-Routing-Forwarding))
 3. [Referencias](#Referencias-mag)
 4. [Autores](#Autores-black_nib)
 <br />
@@ -15,7 +15,7 @@
 * Contar con un grupo de recursos específico para el despliegue de los recursos
 <br />
 
-## Activar el VRF(Virtual Routing Forwarding) 
+## Activar el VRF (Virtual Routing Forwarding) 
 
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/schematics?topic=schematics-about-schematics">Acerca de IBM Cloud Schematics</a>
