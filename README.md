@@ -62,6 +62,10 @@ Tenga en cuenta los siguientes pasos para crear una subred en el servidor virtua
   * ```CIDR```: Ingrese el valor exacto de una dirección o un rango de direcciones IP.
 4. De click sobre el botón ```Crear```. 
 
+<p align="center">
+<img width="800" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/SN.gif>
+</p>
+
 ## Crear una Virtual Server instance
 
 Para esto tenga en cuenta los siguientes pasos:
@@ -82,8 +86,9 @@ Para esto tenga en cuenta los siguientes pasos:
   * ```Private networks```: De click sobre ```Attach existing``` y seleccione la subred privada creada anteriormente.
 4. De click sobre ```Crear```.
 
-
-
+<p align="center">
+<img width="800" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/VSI.gif>
+</p>
 
 ## Activar el VRF (Virtual Routing Forwarding) 
 Para realizar la conexión entre PowerVS y el Firewall Juniper es importarte activar el VRF. Para solicitar la activación del VRF en la cuenta de IBM Cloud, el administrador debe añadir un caso. Para generar dicha solicitud siga los pasos que se muestran a continuación:
