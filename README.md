@@ -10,8 +10,10 @@
 4. [Crear una subred](#crear-una-subred)
 5. [Crear una Virtual Server instance](#crear-una-virtual-server-instance)
 6. [Activar el VRF(Virtual Routing Forwarding)](#Activar-el-VRF-(Virtual-Routing-Forwarding))
-7. [Referencias](#Referencias-mag)
-8. [Autores](#Autores-black_nib)
+7. [Crear servicio Gateway Appliance](#Crear-servicio-Gateway-Appliance)
+8. [Ingresar a Juniper](#Ingresar-a-Juniper)
+9. [Referencias](#Referencias-mag)
+10. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre Requisitos :pencil:
@@ -111,6 +113,13 @@ La habilitación se verá reflejada en las próximas horas.
 <p align="center">
 <img width="500" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/vrf.gif>
 </p>
+<br />
+
+## Crear servicio Gateway Appliance
+<br />
+
+## Ingresar a Juniper
+<br />
 
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/schematics?topic=schematics-about-schematics">Acerca de IBM Cloud Schematics</a>
