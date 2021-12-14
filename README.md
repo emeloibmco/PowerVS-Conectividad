@@ -190,7 +190,7 @@ Luego de desplegar el ```Gateway Appliance``` siga los pasos que se indican a co
 <br />
 
 ## Referencias :mag:
-* <a href="https://cloud.ibm.com/docs/schematics?topic=schematics-about-schematics">Acerca de IBM Cloud Schematics</a>
+
 
 <br />
 
