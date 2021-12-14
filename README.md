@@ -8,9 +8,10 @@
 2. [Crear un Power Systems Virtual Server](#crear-un-power-systems-virtual-server)
 3. [Crear una SSH key](#crear-una-ssh-key)
 4. [Crear una subred](#crear-una-subred)
-5. [Activar el VRF(Virtual Routing Forwarding)](#Activar-el-VRF-(Virtual-Routing-Forwarding))
-6. [Referencias](#Referencias-mag)
-7. [Autores](#Autores-black_nib)
+5. [Crear una Virtual Server instance](#crear-una-virtual-server-instance)
+6. [Activar el VRF(Virtual Routing Forwarding)](#Activar-el-VRF-(Virtual-Routing-Forwarding))
+7. [Referencias](#Referencias-mag)
+8. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre Requisitos :pencil:
