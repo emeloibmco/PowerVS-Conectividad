@@ -1,6 +1,7 @@
 # PowerVS-Conectividad
+En esta guía se plantea el uso de un Gateway Juniper en la ubicación PowerVS para proporcionar VPN de sitio a sitio, permitiendo la comunicación de ubicación local on-premise a PowerVS, mediante un túnel GRE entre la ubicación Juniper y PowerVS, como se muestra en el esquema.
 <p align="center">
-<img width="500" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/escenario.png>
+<img width="800" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/escenario.png>
 </p>
 <br />
 
@@ -114,7 +115,7 @@ Revise que sus configuraciónes hayan quedado correctas y de click en Next / Sig
 La habilitación se verá reflejada en las próximas horas.
 
 <p align="center">
-<img width="500" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/vrf.gif>
+<img width="800" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/vrf.gif>
 </p>
 <br />
 
