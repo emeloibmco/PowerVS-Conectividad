@@ -2,6 +2,7 @@
 <p align="center">
 <img width="500" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/escenario.png>
 </p>
+<br />
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
@@ -35,6 +36,7 @@ Para crear y configurar un servidor virtual Power Systems, tenga en cuenta los s
 <p align="center">
 <img width="800" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/PSVS.gif>
 </p>
+<br />
 
 ## Crear una SSH key
 1. Para crear una SSH key es necesario obtener primero una llave publica, a continuación, se muestra una de las opciones en las que se puede generar el par de llaves SSH para esto tenga en cuenta los siguientes pasos:
@@ -53,7 +55,7 @@ Para crear y configurar un servidor virtual Power Systems, tenga en cuenta los s
 4. Una vez obtenida la llave publica en la Lista de recursos, seleccione su servicio de Servidor virtual de Power Systems.
 5. Siga la ruta ```SSH keys > Create SSH key```.
 6. Ingrese un nombre para la llave y pegue la llave publica creada anteriormente. 
-
+<br />
 
 ## Crear una subred
 Tenga en cuenta los siguientes pasos para crear una subred en el servidor virtual creado anteriormente:
@@ -67,9 +69,9 @@ Tenga en cuenta los siguientes pasos para crear una subred en el servidor virtua
 <p align="center">
 <img width="800" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/SN.gif>
 </p>
+<br />
 
 ## Crear una Virtual Server instance
-
 Para esto tenga en cuenta los siguientes pasos:
 1. En la Lista de recursos, seleccione su servicio de Servidor virtual de Power Systems.
 2. Siga la ruta ```Virtual server instances > Create instance```
@@ -91,6 +93,7 @@ Para esto tenga en cuenta los siguientes pasos:
 <p align="center">
 <img width="800" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/VSI.gif>
 </p>
+<br />
 
 ## Activar el VRF (Virtual Routing Forwarding) 
 Para realizar la conexión entre PowerVS y el Firewall Juniper es importarte activar el VRF. Para solicitar la activación del VRF en la cuenta de IBM Cloud, el administrador debe añadir un caso. Para generar dicha solicitud siga los pasos que se muestran a continuación:
