@@ -170,7 +170,7 @@ Luego de desplegar el ```Gateway Appliance``` siga los pasos que se indican a co
 2. En el navegador (se recomienda usar Firefox) coloque la ip pública y el puerto 8443, de la siguiente manera:
 
    ```
-   ip_publica:8443
+   https://ip_publica:8443
    ```
    
    Espera mientras carga la página
