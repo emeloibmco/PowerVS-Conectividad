@@ -26,6 +26,10 @@ Para crear y configurar un servidor virtual Power Systems, tenga en cuenta los s
   * ```Tags :``` Asígnele etiquetas al servidor si lo considera necesario.
 3. Luego de esto de click en el botón ```Crear```.
 
+<p align="center">
+<img width="500" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/PSVS.gif>
+</p>
+
 ## Crear una SSH key
 1. Para crear una SSH key es necesario obtener primero una llave publica, a continuación, se muestra una de las opciones en las que se puede generar el par de llaves SSH para esto tenga en cuenta los siguientes pasos:
    * Acceda al *IBM Cloud Shell* e ingrese el siguiente comando: 
