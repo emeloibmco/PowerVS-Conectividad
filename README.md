@@ -31,7 +31,7 @@ Para crear y configurar un servidor virtual Power Systems, tenga en cuenta los s
 3. Luego de esto de click en el botón ```Crear```.
 
 <p align="center">
-<img width="500" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/PSVS.gif>
+<img width="800" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/PSVS.gif>
 </p>
 
 ## Crear una SSH key
