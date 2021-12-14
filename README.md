@@ -129,7 +129,7 @@ Para desplegar un servicio Gateway Appliance realice lo siguiente:
 
    **Detalles de recurso**
    * ```Proveedor```: seleccione el proveedor, para este caso es *Juniper*.
-   * ```Versión```: seleccione la versión, para este caso es *20.4R2-S2 (up to 1 Gbps).
+   * ```Versión```: seleccione la versión, para este caso es *20.4R2-S2 (up to 1 Gbps)*.
    * ```Licencia```: indique la licencia que utilizará, en este caso *Standard License*.
    * ```Nombre del Host```: asigne un nombre exclusivo para el host.
    * ```Dominio```: deje el dominio que aparece por defecto o indique uno nuevo.
