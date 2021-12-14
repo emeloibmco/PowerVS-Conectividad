@@ -156,6 +156,11 @@ Para desplegar un dispositivo de pasarela ```Gateway Appliance``` realice lo sig
    *  ```Salida pública - ancho de banda```: seleccione el ancho de banda, en este caso *5000 GB (0,00 US$)*.
 
    Los demás campos nos los modifique, deje los valores que salen por defecto. Para finalizar, de click en el botón ```Crear/Create```.
+   
+   <p align="center">
+   <img src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/Crear%20Gateway%20Appliance.gif>
+   </p>
+  
 <br />
 
 ## Ingresar a Juniper
