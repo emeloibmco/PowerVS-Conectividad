@@ -7,7 +7,7 @@
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Crear un Power Systems Virtual Server](#crear-un-power-systems-virtual-server)
 3. [Crear una SSH key](#crear-una-ssh-key)
-4. [](#crear-una-subred)
+4. [Crear una subred](#crear-una-subred)
 5. [Activar el VRF(Virtual Routing Forwarding)](#Activar-el-VRF-(Virtual-Routing-Forwarding))
 6. [Referencias](#Referencias-mag)
 7. [Autores](#Autores-black_nib)
