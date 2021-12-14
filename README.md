@@ -119,7 +119,7 @@ La habilitación se verá reflejada en las próximas horas.
 <br />
 
 ## Crear servicio Gateway Appliance
-Para desplegar un servicio Gateway Appliance realice lo siguiente:
+Para desplegar un dispositivo de pasarela ```Gateway Appliance``` realice lo siguiente:
 
 1. De click en la pestaña del catálogo y en la barra de búsqueda escriba ```Gateway Appliance```.
 
@@ -158,6 +158,34 @@ Para desplegar un servicio Gateway Appliance realice lo siguiente:
 <br />
 
 ## Ingresar a Juniper
+Luego de desplegar el ```Gateway Appliance``` siga los pasos que se indican a continuación para ingresar a Juniper:
+
+1. En el recurso desplegado, de click en la pestaña ```Visión general/Overview``` y allí visualice la sección ```vSRX```. Identifique los siguientes datos:
+
+   * ```IP Pública```.
+   * ```IP Privada```.
+   * ```Nombres de usuario```: root y admin.
+   * ```Contraseñas```.
+
+2. En el navegador (se recomienda usar Firefox) coloque la ip pública y el puerto 8443, de la siguiente manera:
+
+   ```
+   ip_publica:8443
+   ```
+   
+   Espera mientras carga la página
+   
+3. Una vez cargue la ventana, se le solicitará que coloque usuario y contraseña para acceder a Juniper. Complete los campos teniendo en cuenta:
+
+   * ```Username```: coloque *admin*.
+   * ```Password```: coloque la contraseña para el usuario *admin* obtenida en la sección ```vSRX```.
+
+4. De click en el botón ```Log In``` para iniciar sesión en Juniper.
+
+  <p align="center">
+  <img src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/Juniper.PNG>
+  </p>
+  
 <br />
 
 ## Referencias :mag:
