@@ -5,9 +5,10 @@
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
-2. [Activar el VRF(Virtual Routing Forwarding)](#Activar-el-VRF-(Virtual-Routing-Forwarding))
-3. [Referencias](#Referencias-mag)
-4. [Autores](#Autores-black_nib)
+2. [Crear un Power Systems Virtual Server](#crear-un-power-systems-virtual-server)
+3. [Activar el VRF(Virtual Routing Forwarding)](#Activar-el-VRF-(Virtual-Routing-Forwarding))
+4. [Referencias](#Referencias-mag)
+5. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre Requisitos :pencil:
