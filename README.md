@@ -64,7 +64,7 @@ Tenga en cuenta los siguientes pasos para crear una subred en el servidor virtua
 2. Siga la ruta ```Subnets > Create subnet```
 3. Esto abrirá una ventana de configuración, aquí ingrese la siguiente información:
   * ```Name```: Ingrese un nombre distintivo para la subred.
-  * ```CIDR```: Ingrese el valor exacto de una dirección o un rango de direcciones IP.
+  * ```CIDR```: Ingrese el valor exacto de una dirección o un rango de direcciones IP tenga en cuenta la siguiente <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-configuring-subnet"> guía </a>  para evitar tener solapamientos con los segmentos de IBM Cloud al momento de crear la subred .
 4. De click sobre el botón ```Crear```. 
 
 <p align="center">
@@ -97,7 +97,10 @@ Para esto tenga en cuenta los siguientes pasos:
 <br />
 
 ## Activar el VRF (Virtual Routing Forwarding) 
-Para realizar la conexión entre PowerVS y el Firewall Juniper es importarte activar el VRF. Para solicitar la activación del VRF en la cuenta de IBM Cloud, el administrador debe añadir un caso. Para generar dicha solicitud siga los pasos que se muestran a continuación:
+
+Antes de Continuar cabe resaltar que es necesario crear y configurar un Gateway-Appliance-Juniper-vSRX-version-20.4, para esto tenga en cuenta el siguiente <a href="https://github.com/emeloibmco/Gateway-Appliance-Juniper-vSRX-version-20.4"> repositorio</a>
+
+Luego de esto para realizar la conexión entre PowerVS y el Firewall Juniper es importarte activar el VRF. Para solicitar la activación del VRF en la cuenta de IBM Cloud, el administrador debe añadir un caso. Para generar dicha solicitud siga los pasos que se muestran a continuación:
 
 1. Acceda a ```Manage / Administrar``` > ```Account / Cuenta``` y luego haga clic en  ```Account settings / Configuración de la cuenta```. 
 2. Busque la sección de ```Virtual Routing and Forwarding```  y de click en ```Create case / Crear caso```.
@@ -118,6 +121,26 @@ La habilitación se verá reflejada en las próximas horas.
 <img width="800" alt="autoscale" src=https://github.com/emeloibmco/PowerVS-Conectividad/blob/main/Imagenes/vrf.gif>
 </p>
 <br />
+
+
+## Configuracion de Cloud Connection (Tunel GRE)
+
+### Crear Cloud Connection
+El Cloud Connection le permitirá conectar el Power Systems Virtual Server con el Gateway creado anteriormente, para esto tenga en cuenta los siguientes pasos:
+1. En la Lista de recursos, seleccione su servicio de Servidor virtual de Power Systems.
+2. Siga la ruta ```Cloud connections > Create connection```
+3. Esto lo llevara a una pestaña de configuración, aquí ingrese la siguiente información:
+  * ```Name```: Ingrese un nombre distintivo para la conexión.
+  * ```Speed```: En este caso seleccione ```5Gbps```
+  * ```Global routing```: Desactive esta opción
+  * ```Endpoint destinations```: Seleccione la casilla de infraestructura clásica.
+    * ```Use GRE for VMware and other Classic Connectivity``` Active esta opción.
+      * ```GRE destination IP```: Ingrese la IP privada del Gateway, para esto siga la ruta ```Resource list > Servicio de Gateway desplegado > General View > Network Details```
+      * ```GRE subnet```: Ingrese el segmento de IP que desee para configurar el Direct Link, tenga en cuenta la siguiente <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-configuring-power#gre-tunneling"> guía </a> para esto 
+  * ```Subnets```: De click sobre el botón ```connect existing``` y seleccione la subred.
+  * De click en ```Crear conexión```
+
+
 
 
 ## Referencias :mag:
