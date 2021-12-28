@@ -12,8 +12,6 @@ En esta guía se plantea el uso de un Gateway Juniper en la ubicación PowerVS p
 4. [Crear una subred](#crear-una-subred)
 5. [Crear una Virtual Server instance](#crear-una-virtual-server-instance)
 6. [Activar el VRF(Virtual Routing Forwarding)](#Activar-el-VRF-(Virtual-Routing-Forwarding))
-7. [Crear servicio Gateway Appliance](#Crear-servicio-Gateway-Appliance)
-8. [Ingresar a Juniper](#Ingresar-a-Juniper)
 9. [Referencias](#Referencias-mag)
 10. [Autores](#Autores-black_nib)
 <br />
