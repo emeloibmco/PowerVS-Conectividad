@@ -142,7 +142,8 @@ El Cloud Connection le permitirá conectar el Power Systems Virtual Server con e
 
 
 ## Referencias :mag:
-
+* <a href="https://github.com/emeloibmco/VPC-Conexion-VPN"> VPC Conexión VPN</a>. 
+* <a href="https://github.com/emeloibmco/Gateway-Appliance-Juniper-vSRX-version-20.4"> Gateway-Appliance-Juniper-vSRX-version-20.4 </a>.
 
 <br />
 
